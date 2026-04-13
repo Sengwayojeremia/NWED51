@@ -57,7 +57,7 @@
 /* For the background cover which is the hero section */
 
 .hero{
-    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('pictures/Lets\ work\ together.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dkiakqfui/image/upload/q_auto/f_auto/v1776047355/Lets_work_together_hh9m6f_1_haiz81.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
@@ -103,8 +103,8 @@
 
 .button-click{
     padding: 5px 15px;
-    margin: 20px;
-    border-radius: 10px;
+    margin: 15px;
+    border-radius: 5px;
     font-size: 13px;
     font-family: system-ui;
     text-transform: uppercase;
@@ -113,8 +113,14 @@
     border: none;
     cursor: pointer;
     transition: 0.3s ease;
+    
 
 }
+
+
+
+
+
 .button-click:hover{
     box-shadow: 0 0 10px white;
     transform: scale(1.1);
@@ -163,8 +169,9 @@
     text-decoration-color: #033877;
     padding: 20px;
     margin: 30px;
-    font-size: 2rem;
+    font-size: 2rem; 
 }
+
 
 .card-unique:nth-child(1) .card-icon i{
     color: #ffcc00;
@@ -501,15 +508,20 @@ ul{
     text-transform: capitalize;
 }
 
-.footer-col h4::before{
+.footer-col h4::after{
     content: "";
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    height: 2px;
-    width: 60px;
+    display: block;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -12px;
+    height: 3px;
+    width: 50px;
     background-color: lightblue;
 }
+
+
+
 
 ul li:not(:last-child){
     margin-bottom: 10px;
@@ -674,6 +686,14 @@ body{
     transition: 0.3s ease;
 }
 
+.why h2{
+    text-align: center;
+    text-underline-offset: 8px;
+    text-decoration-color: #033877;
+    padding: 20px;
+    margin: 30px;
+    font-size: 2rem; 
+}
 
 /* FOR RESPONSIVENESS TO DIFFERENT SCREEN SIZES */
 
@@ -704,7 +724,10 @@ body{
     footer{
         flex-direction: column;
         align-items: center;
+        padding: 15px 5%;
     }
+
+
     .footer-col{
         width: 100%;
         text-align: center;
@@ -736,6 +759,7 @@ body{
     footer{
         flex-direction: column;
         align-items: center;
+        padding: 15px 5%;
     }
     .footer-col{
         width: 100%;
