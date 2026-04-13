@@ -9,7 +9,7 @@ const nameError = document.getElementById('nameError');
 const emailError = document.getElementById('emailError');
 const messageError = document.getElementById('messageError');
 
- (Missing in your original)
+
 const namePattern = /^[A-Za-z\s]+$/; 
 
 form.addEventListener('submit', (e) => {
